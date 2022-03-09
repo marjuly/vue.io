@@ -1,6 +1,12 @@
 body {
   text-align: center;
 }
+
+#end {
+  font-size: 105px;
+  color: #70001a;
+}
+
 /* CSS */
 .button-49,
 .button-49:after {
