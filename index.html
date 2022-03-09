@@ -12,12 +12,14 @@
   </head>
   <body>
     <div id="app">
-      <p>
+      <p v-if="worldText">
         {{text}}
       </p>
       <button class="button-49" role="button" @click="toggleWorldText">
         DO NOT CLICK
       </button>
+
+      <div v-show="!worldText">the world has ended</div>
     </div>
 
     <script src="app.js"></script>
